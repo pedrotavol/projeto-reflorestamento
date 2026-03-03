@@ -1,0 +1,156 @@
+Projeto Verde Bahia
+05/01/2023
+1
+Iniciativa de reflorestamento para protecao de nascentes e cursos dagua.
+8
+Araucaria angustifolia
+1 29
+Pinus elliottii
+2 13
+Copaifera langsdorffii
+1 12
+Artocarpus heterophyllus
+2 13
+Dalbergia nigra
+1 14
+Mangifera indica
+2 40
+Ocotea odorifera
+1 25
+Syzygium jambolanum
+2 31
+Restauracao Florestal Para
+24/03/2022
+1
+Iniciativa de reflorestamento para protecao de nascentes e cursos dagua.
+8
+Myracrodruon urundeuva
+1 22
+Acacia mangium
+2 6
+Anadenanthera colubrina
+1 16
+Tectona grandis
+2 38
+Mimosa caesalpiniifolia
+1 32
+Cupressus sempervirens
+2 20
+Aspidosperma polyneuron
+1 8
+Liquidambar styraciflua
+2 6
+Arborizacao Urbana Mato Grosso
+03/04/2024
+1
+Projeto de restauracao ecologica com participacao da comunidade.
+3
+Pterogyne nitens
+1 38
+Platanus occidentalis
+2 37
+Cordia superba
+1 24
+Reflorestamento Rio Nilo
+27/12/2024
+0
+3
+Hymenaea courbaril
+1 12
+Salix alba
+2 39
+Apuleia leiocarpa
+1 29
+Conservacao Mata Atlantica Sul
+22/06/2019
+0
+8
+Qualea grandiflora
+1 39
+Crataegus monogyna
+2 24
+Euterpe edulis
+1 16
+Passiflora edulis
+2 13
+Schinus terebinthifolia
+1 9
+Citrus sinensis
+2 26
+Caesalpinia pluviosa
+1 17
+Morus alba
+2 35
+Revitalizacao Ambiental Piaui
+02/04/2024
+0
+6
+Handroanthus albus
+1 37
+Bambusa vulgaris
+2 13
+Cedrela fissilis
+1 33
+Ricinus communis
+2 17
+Inga edulis
+1 36
+Sesbania sesban
+2 20
+Projeto Biodiversidade Acre
+28/02/2020
+1
+Projeto voltado para restaurar vegetacao nativa em areas degradadas.
+2
+Tabebuia roseoalba
+1 39
+Gliricidia sepium
+2 5
+Restauracao Floresta Rondonia
+05/01/2019
+0
+2
+Araucaria angustifolia
+1 16
+Erythrina variegata
+2 24
+Arborizacao Sustentavel Santa Catarina
+17/05/2020
+1
+Acao ambiental para ampliar a cobertura vegetal urbana.
+7
+Copaifera langsdorffii
+1 38
+Eucalyptus grandis
+2 15
+Dalbergia nigra
+1 35
+Pinus elliottii
+2 9
+Ocotea odorifera
+1 40
+Artocarpus heterophyllus
+2 16
+Myracrodruon urundeuva
+1 11
+Reflorestamento Bacia Amazonas
+05/07/2019
+1
+Projeto voltado para restaurar vegetacao nativa em areas degradadas.
+8
+Anadenanthera colubrina
+1 17
+Mangifera indica
+2 11
+Mimosa caesalpiniifolia
+1 21
+Syzygium jambolanum
+2 23
+Aspidosperma polyneuron
+1 22
+Acacia mangium
+2 8
+Pterogyne nitens
+1 23
+Tectona grandis
+2 18
