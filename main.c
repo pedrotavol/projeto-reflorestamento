@@ -4,6 +4,11 @@ int main(){
     ListaProjetos lista;
     lista = criarListaProjetos();
 
+    if(lista == NULL){
+        printf("Erro: falha na inicializacao da lista.\n\n");
+        return 0;
+    }
+
     int operacao;
     do{
         operacao = menu();
@@ -52,4 +57,5 @@ int main(){
     }while(operacao != 0);
 
     printf("Obrigado por utilizar nosso programa. Ate mais!\n\n");
+    printf("Encerrando...\n");
 }
