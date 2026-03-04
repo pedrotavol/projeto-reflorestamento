@@ -5,6 +5,7 @@
 //incluindo leitura e impressão de dados e a manipulação de listas
 //duplamente encadeadas de projetos e árvores (com nó descritor)
 
+#include "ferramentas.h" //(Depende das funções auxiliares da biblioteca ferramentas.h)
 #include "projeto.h" //(Depende da biblioteca projeto.h)
 
 int menu();
@@ -17,6 +18,7 @@ Projeto criarProjeto();
 int cadastrarArvores(ListaArvores lista);
 
 int cadastrarArvoreEmProjeto(ListaProjetos lista);
+int removerArvoreDeProjeto(ListaProjetos lista);
 void listarArvoreDeProjeto(ListaProjetos lista);
 
 int contarArvoreProjetoNome(ListaProjetos lista);

@@ -28,18 +28,21 @@ int main(){
                 cadastrarArvoreEmProjeto(lista);
                 break;
             case 6:
-                listarArvoreDeProjeto(lista);
+                removerArvoreDeProjeto(lista);
                 break;
             case 7:
-                contarArvoreProjetoNome(lista);
+                listarArvoreDeProjeto(lista);
                 break;
             case 8:
-                contarTotalArvores(lista);
+                contarArvoreProjetoNome(lista);
                 break;
             case 9:
-                lerProjetosArquivo(lista);
+                contarTotalArvores(lista);
                 break;
             case 10:
+                lerProjetosArquivo(lista);
+                break;
+            case 11:
                 gerarRelatorioProjetos(lista);
                 break;
             default:
@@ -47,4 +50,6 @@ int main(){
                 break;
         }
     }while(operacao != 0);
+
+    printf("Obrigado por utilizar nosso programa. Ate mais!\n\n");
 }

@@ -15,13 +15,14 @@ int menu() {
 
     printf("\n| ARVORES\n");
     printf("| [5]  Cadastrar arvore em projeto\n");
-    printf("| [6]  Listar arvores de um projeto\n");
-    printf("| [7]  Contar arvores de um projeto\n");
-    printf("| [8]  Total de arvores plantadas\n");
+    printf("| [6]  Remover especie de arvore em projeto\n");
+    printf("| [7]  Listar arvores de um projeto\n");
+    printf("| [8]  Contar arvores de um projeto\n");
+    printf("| [9]  Total de arvores plantadas\n");
 
     printf("\n| ARQUIVOS E RELATORIOS\n");
-    printf("| [9]  Ler arquivo de projetos\n");
-    printf("| [10] Gerar relatorio dos projetos\n\n");
+    printf("| [10]  Ler arquivo de projetos\n");
+    printf("| [11] Gerar relatorio dos projetos\n\n");
 
     printf("| [0]  Sair\n");
     printf("_________________________________________\n\n");
@@ -126,6 +127,30 @@ int cadastrarArvoreEmProjeto(ListaProjetos lista){ //Cadastra arvore em um proje
     return 1;
 }
 
+int removerArvoreDeProjeto(ListaProjetos lista){
+    Projeto infoProjeto;
+
+    if(lerProjetoPorNome(lista, &infoProjeto) == 0) //Lê e procura o projeto pelo nome
+        return 0;
+
+    if(infoProjeto.arvores->quantEspecies == 0){
+        printf("Erro: lista vazia.\n\n");
+        return 0;
+    }
+
+    Arvore arvore;
+    printf("Digite o nome da especie de arvore que deseja remover: ");
+    lerString(arvore.nomeCientifico, sizeof(arvore.nomeCientifico));
+
+    if(removerArvores(infoProjeto.arvores, arvore) == 0){
+        printf("Erro: especie nao encontrada.\n\n");
+        return 0;
+    }
+
+    printf("Especie removida com sucesso!\n\n");
+    return 1;
+}
+
 void listarArvoreDeProjeto(ListaProjetos lista){ //Lista árvores de um projeto específico
     Projeto infoProjeto;
 
@@ -225,12 +250,12 @@ int pesquisarProjetosPorNome(ListaProjetos lista){ //Imprime todas as informaçõe
     if(lerProjetoPorNome(lista, &infoProjeto) == 0) //Lê e procura um projeto por nome
         return 0;
 
-    printf("------------------------------------------------\n");
+    printf("\n--------------------------------------------------\n");
     printf("Projeto: %s\n", infoProjeto.nomeProjeto);
     printf("Data de Inicio: %s\n", infoProjeto.dataDeInicio);
-    printf("Especies: %d\n", infoProjeto.arvores->quantEspecies);
+    printf("Total de arvores: %d (distribuidas em %d especies)\n", contarArvores(infoProjeto.arvores->inicio), infoProjeto.arvores->quantEspecies);
     printf("Descricao: %s\n", infoProjeto.descricao);
-    printf("------------------------------------------------\n\n");
+    printf("--------------------------------------------------\n\n");
 
     return 1;
 }

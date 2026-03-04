@@ -4,7 +4,9 @@
 //Esta biblioteca define o TAD Árvore e implementa as funções de manipulação
 //de uma lista duplamente encadeada de árvores (com nó descritor).
 
-#include "ferramentas.h" //(Depende das funções auxiliares da biblioteca ferramentas)
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
 typedef struct arvore{
     char nomeCientifico[60];
@@ -26,7 +28,7 @@ typedef DescritorArvore* ListaArvores;
 
 ListaArvores criarListaArvores(); //Cria e inicializa uma lista de árvores
 int adicionarArvoreOrdenada(ListaArvores lista, Arvore arvore, int quantidade); //Adiciona árvore à lista em ordem alfabética
-int removerArvore(ListaArvores lista, Arvore arvore); //Remove árvore da lista de árvores
+int removerArvores(ListaArvores lista, Arvore arvore); //Remove árvore da lista de árvores
 int buscarArvorePorNome(char *nomeDaArvore, ListaArvores lista, Arvore *arvoreDest); //Busca arvore pelo nome e salva as informações em arvoreDest
 void imprimirArvoresSimples(NoArvore *inicio); //Imprime nome das árvores recursivamente
 void imprimirArvoresCompleto(NoArvore *inicio); //Imprime todas as informações das árvores recursivamente

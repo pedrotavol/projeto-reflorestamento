@@ -7,7 +7,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-void limparTerminal();
 void limparBuffer();
 void removerQuebraLinha(char *strDestino);
 void lerString(char *strDestino, int strTamanho);
