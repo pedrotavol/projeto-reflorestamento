@@ -21,7 +21,7 @@ int menu() {
     printf("| [9]  Total de arvores plantadas\n");
 
     printf("\n| ARQUIVOS E RELATORIOS\n");
-    printf("| [10]  Ler arquivo de projetos\n");
+    printf("| [10] Ler arquivo de projetos\n");
     printf("| [11] Gerar relatorio dos projetos\n\n");
 
     printf("| [0]  Sair\n");
