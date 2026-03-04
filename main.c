@@ -56,6 +56,6 @@ int main(){
         }
     }while(operacao != 0);
 
-    printf("Obrigado por utilizar nosso programa. Ate mais!\n\n");
     printf("Encerrando...\n");
+    printf("Obrigado por utilizar nosso programa. Ate mais!\n\n");
 }
