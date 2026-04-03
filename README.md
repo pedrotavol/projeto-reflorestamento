@@ -4,7 +4,7 @@ Sistema de gerenciamento de projetos de reflorestamento desenvolvido em C, permi
 
 ## 📋 Sobre o Projeto
 
-Projeto desenvolvido como trabalho final da disciplina de **Algoritmos e Estrutura de Dados I**.
+Projeto desenvolvido como trabalho final da disciplina de **Algoritmos e Estrutura de Dados I** do curso de **Bacharelado em Ciência da Computação** da **Universidade Federal de Uberlândia (UFU)**.
 
 O sistema permite gerenciar projetos de reflorestamento de forma organizada, armazenando informações sobre cada projeto (nome, data de início, descrição) e as espécies de árvores associadas (nome científico, origem e quantidade de representantes).
 
@@ -20,7 +20,7 @@ sistema.h
 ## 🚀 Como Compilar e Executar
 
 ```bash
-gcc main.c -o reflorestamento
+gcc main.c ferramentas.c arvore.c projeto.c sistema.c -o reflorestamento
 ./reflorestamento
 ```
 
